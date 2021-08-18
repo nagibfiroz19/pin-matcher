@@ -29,5 +29,21 @@
 
         }
     })
+    // Pin verified part
+        
+    function verifyPin(){
+        const pin=document.getElementById('display-pin').value;
+        const successMessage=  document.getElementById('notify-success');
+        const failMessage=  document.getElementById('notify-failed');
+        const typedNumbers=document.getElementById('typed-numbers').value;
+        if(pin == typedNumbers){
+           successMessage.style.display='block';
+           failMessage.style.display='none'; 
+        }
+        else{
+            failMessage.style.display='block';
+            successMessage.style.display='none';
+        }
+    }
 
     
