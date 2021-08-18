@@ -35,12 +35,14 @@ body {
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
-    color: #ffffff;
+    color: #f0e6e6;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    font-size: 50px;
+    text-align: center;
 }
 input[type='text']:focus {
     background-color: #3D4153;
