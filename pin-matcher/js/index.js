@@ -18,7 +18,7 @@
     //for type the correct pin number in display
     document.getElementById('key-pad').addEventListener('click', function (event) {
         const number = event.target.innerText;
-        const calcInput = document.getElementById('disply-input');
+        const calcInput = document.getElementById('typed-numbers');
         if (isNaN(number)) {
             if (number == 'C') {
                 calcInput.value = '';
@@ -30,3 +30,4 @@
 
         }
     })
+
