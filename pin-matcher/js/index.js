@@ -9,10 +9,9 @@
             return getPin();
         }
     }
-
     function generatePin() {
-        document.getElementById('display-pin').value = getPin();
 
+        document.getElementById('display-pin').value = getPin();
     }
 
     //for type the correct pin number in display
@@ -31,3 +30,4 @@
         }
     })
 
+    
